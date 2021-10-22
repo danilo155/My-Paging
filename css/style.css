@@ -7,8 +7,7 @@ body{
     transition: transform 0.3s ease;
 }
 body.show-nav {
-  /* Width of nav */
-  transform: translateX(200px);
+    transform: translateX(200px);
 }
 a{
     text-decoration: none;
@@ -25,8 +24,22 @@ nav{
     z-index: 100;
     transform: translateX(-100%);
 }
+li:nth-last-of-type(1) {
+    border-bottom: 2px #56569596 solid;
+}
+li {
+    border-top: 2px #56569596 solid;
+    padding: 27px 0;
+    font-size: 20px;
+}
 nav li{
-    text-align: center;
+    border-bottom: 2px #56569596 solid;
+}
+a {
+    margin-left: 10px;
+}
+ul{
+    text-align: left;
 }
 .logo img{
     display: block;
@@ -58,6 +71,8 @@ header h1,p{
     color: #fff;
     padding: 10px 10px 10px 10px;
     border-radius: 10%;
+    border: none;
+    background-color: rgba(5, 5, 5, 0.424);
 }
 .cta-btn{
     background-color: blue;
@@ -65,4 +80,17 @@ header h1,p{
     padding: 20px 30px 20px 30px;
     border-radius: 10%;
     border: none;
+}
+.border-active {
+    border-left: 2px #56569596 solid;
+
+}
+
+.width-second-position {
+    width: 100%;
+}
+.quote {
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
