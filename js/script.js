@@ -4,7 +4,11 @@ let newWidth = (width - 200).toString() + 'px';
 console.log(newWidth)
 
 let i = 0;
-
+document.getElementById("toggle").addEventListener("click", onClickSlide);
+document.getElementById("open").addEventListener("click", showForm);
+function showForm() {
+    document.getElementById("modal").classList.add('show-modal');
+}
 function onClickSlide() {
     document.body.classList.toggle('show-nav');
     document.body.classList.toggle('width-second-position');
@@ -20,7 +24,4 @@ function onClickSlide() {
         document.querySelector('body').style.width = width.toString() + 'px';
         i--;
     }
-}
-function onClickForm() {
-    document.querySelector('form').classList.toggle('form-display')
 }
