@@ -21,3 +21,6 @@ function onClickSlide() {
         i--;
     }
 }
+function onClickForm() {
+    document.querySelector('form').classList.toggle('form-display')
+}
