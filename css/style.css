@@ -11,7 +11,12 @@ body{
 body.show-nav {
     transform: translateX(200px);
 }
-a{
+main{
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.menu a{
     text-decoration: none;
     color: #fff;
 }
@@ -221,4 +226,8 @@ textarea{
   to {
     opacity: 1;
   }
+}
+.project a{
+  color: #000;
+  text-decoration: none;
 }
