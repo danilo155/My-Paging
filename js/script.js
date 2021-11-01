@@ -25,3 +25,13 @@ function onClickSlide() {
         i--;
     }
 }
+// function number(number1,number2,number3) {
+//     if (number1 + number2 + number3 ==0) {
+//         alert("Сумма дорівнює нулю")
+//     } else if (number1 + number2 + number3 > 0) {
+//         alert("Сумма більше нуля")
+//     } else {
+//         alert("Сумма меньше нуля")
+//     }
+// }
+// number(11, 23, -54);
