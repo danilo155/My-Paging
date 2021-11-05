@@ -25,13 +25,20 @@ function onClickSlide() {
         i--;
     }
 }
-// function number(number1,number2,number3) {
-//     if (number1 + number2 + number3 ==0) {
-//         alert("Сумма дорівнює нулю")
-//     } else if (number1 + number2 + number3 > 0) {
-//         alert("Сумма більше нуля")
-//     } else {
-//         alert("Сумма меньше нуля")
-//     }
+let text="Welcome to my Pages"
+        let textArray=['H','e','l','l','o','w']
+        let check=0
+        setInterval(function typing() {
+                if (check < text.length) {
+                    document.getElementById("text").textContent += text[check];
+                    check++;
+                }
+            }, 160);
+// let number = ['5', '-3', '10', '-100', '500']
+// for (let i = 0; i < number.length; i++ ){
+//     if (number[i]<0) {
+//        console.log(number[i])
+//    } else {
+//     console.log('Ничего');
+//   }
 // }
-// number(11, 23, -54);

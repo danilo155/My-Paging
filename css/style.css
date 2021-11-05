@@ -227,6 +227,15 @@ textarea{
     opacity: 1;
   }
 }
+@keyframes deleteLogin {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
 .project a{
   color: #000;
   text-decoration: none;
