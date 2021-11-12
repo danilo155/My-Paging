@@ -26,14 +26,14 @@ function onClickSlide() {
     }
 }
 let text="Welcome to my Pages"
-        let textArray=['H','e','l','l','o','w']
-        let check=0
-        setInterval(function typing() {
-                if (check < text.length) {
-                    document.getElementById("text").textContent += text[check];
-                    check++;
-                }
-            }, 160);
+let check=0
+setInterval(function typing() {
+        if (check < text.length) {
+            document.getElementById("text").textContent += text[check];
+            check++;
+        }
+}, 160);
+
 // let number = ['5', '-3', '10', '-100', '500']
 // for (let i = 0; i < number.length; i++ ){
 //     if (number[i]<0) {

@@ -80,6 +80,7 @@ header h1,p{
     border-radius: 10%;
     border: none;
     background-color: rgba(5, 5, 5, 0.424);
+    cursor: pointer;
 }
 .cta-btn{
     background-color: blue;
@@ -87,6 +88,7 @@ header h1,p{
     padding: 20px 30px 20px 30px;
     border-radius: 10%;
     border: none;
+    cursor: pointer;
 }
 .border-active {
     border-left: 2px #56569596 solid;

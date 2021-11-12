@@ -1,0 +1,17 @@
+.slider{
+    width: 50%;
+    margin: 20% auto;
+    position: relative;
+}
+img{
+    max-width: 100%;
+}
+#right-button{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+#right-button,
+#left-button{
+cursor: pointer;
+}
